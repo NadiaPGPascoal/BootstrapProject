@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Nádia Pascoal" />
+  <meta name="description" content="Projeto final do curso de UI e Development, na flag.">
+  <meta name="keywords" content="Flag">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="resetbrowsers" href="reset.css">
+  <link rel="icon" type="image/png" sizes="128x128" href="https://www.google.pt">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Viga&display=swap"
+    rel="stylesheet">
+  <!-- /Google fonts -->
+
+  <!-- Bootstrap Css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- /Bootstrap Css -->
+
+  <!-- Css -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- /Css -->
+
+  <style>
+
+
+  </style>
+  <!-- Bootsrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- /Bootstrap icons -->
+
+  <!-- Javascript -->
+  <script src="./js/script.js"></script>
+  <!-- /Javascript -->
+
+  <title>ProjectFlag2021</title>
+
+</head>
+
+<body>
+  <header>
+    <!-- Yellow Line -->
+    <div class="container-fluid hours">
+      <div class="row">
+        <div class="col-12 col-md-10 offset-md-2">
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">
+              <i class="bi-clock"></i>Seg - Sex <strong>9:00 - 21:00</strong>
+            </li>
+            <li class="list-group-item d-none d-lg-block">
+              |<i class="bi-telephone-fill"></i>Ligue <strong>234 000 000</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- /Yellow Line -->
+
+    <section>
+      <h2 id="primary-navigation" class="hidden">Primary navigation</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-4 offset-lg-2 px-4">
+            <!-- Navigation Bar -->
+            <div class="container-nav nav-margin">
+              <div class="float-left">
+                <div id="logo">
+                  <a class="navbar-brand" href="https://www.google.pt">
+                  </a>
+                </div>
+              </div>
+
+              <div class="float-right">
+                <nav aria-labelledby="primary-navigation" class="navbar navbar-expand-lg navbar-light bg-transparent">
+                  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Alterna navegação">
+                    <span class="cross-menu my-1 mx-2 close"><i class="bi bi-x-lg"></i></span>
+                    <span class="icon-toggler"><i class="bi bi-list"></i></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="box">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link margin-nav-link" href="https://www.google.pt">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link margin-nav-link" href="https://www.google.pt">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link margin-nav-link" href="https://www.google.pt">Páginas</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link margin-nav-link" href="https://www.google.pt">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="margin-nav-link" href="https://www.google.pt">Contactos</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </nav>
+              </div>
+              <div class="clear"></div>
+            </div>
+            <!--/ Navigation Bar -->
+            <!-- Headtitle & subtitle -->
+            <section>
+              <div class="text-header">
+                <h1>
+                  Veja as nossas promoções semanais
+                </h1>
+                <h4 class="text-h4">
+                  Pellentesque et justo lorem. Proin hendrerit, velit vitae vehicula vulputate
+                </h4>
+                <div class="buttons">
+                  <button class="btn btn-outline-dark" id="oferta">
+                    Ver oferta
+                  </button>
+                  <button class="btn btn-outline-dark" id="Sobre">
+                    Sobre nós
+                  </button>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- /Headtitle & subtitle -->
+          <!-- Images - Header -->
+          <div class="col-12 col-lg-6 g-0 hide-mobile">
+            <div class="container-fluid g-0">
+              <div class="row">
+                <div class="col-4">
+                  <div class="float-right">
+                    <button class="btn help-icon"><i class="bi bi-person"></i></button>
+                  </div>
+                </div>
+                <div class="col-8">
+                  <div class="container roundcorners">
+                    <div class="row">
+                      <div class="col-7">
+                        <h3>
+                          Vegetais semanais
+                        </h3>
+                        <p id="text-yellow">
+                          a vitamina que precisamos para a nossa semana
+                        </p>
+                      </div>
+                      <div class="col-5">
+                        <div class="rounded-pill float-right">
+                          <p class="text-decoration-line-through">
+                            €80.00
+                          </p>
+                        </div>
+                        <div class="float-right">
+                          <div class="rednumber">
+                            €49.99
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <section class="twoimages">
+                <h2 class="hidden">Images header</h2>
+              </section>
+            </div>
+          </div>
+          <!-- /Images - Header -->
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!-- 3 images -->
+    <div class="header-3-images">
+
+
+      <div class="container g-0">
+        <div class="row headerfloatingtop g-0">
+
+
+          <div class="col-12 col-lg-4">
+            <img src="./img/1.png" class="small-image" alt="meat and vegetables">
+          </div>
+          <div class="col-12 col-lg-4">
+            <img src="./img/2active.png" class="medium-image" alt="salmon">
+          </div>
+          <div class="col-12 col-lg-4">
+            <img src="./img/3.png" class="small-image" alt="salad">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /3 images -->
+    <!-- Cards -->
+    <section id="background">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center text-margin-top">
+            <h2 class="">
+              Os melhores produtos
+            </h2>
+            <p class="padding-text-cards px-md-0">
+              Pretium quam vulputate dignissim suspendisse in est ante. Ac felis donec et odio pellentesque diam
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 small cards -->
+      <div class="container">
+        <div class="row gx-5">
+
+          <div class="col-12 col-lg-4">
+            <div class="card iconcards">
+              <div class="container g-0">
+                <div class="row g-0">
+                  <div class="col-md-3">
+                    <i class="bi-truck icons"></i>
+                  </div>
+                  <div class="col-md-1">
+                    <div class="trait"></div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Entrega Rápida</h5>
+                      <p class="card-text">Entre 3 a 5 horas depois da encomenda</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <div class="card iconcards">
+              <div class="container g-0">
+                <div class="row g-0">
+                  <div class="col-md-3">
+                    <i class="bi-clock icons"></i>
+                  </div>
+                  <div class="col-md-1">
+                    <div class="trait"></div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body" id="extra-tm">
+                      <h5 class="card-title">Horário</h5>
+                      <p class="card-text">Seg-Sex 9h - 21h</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <div class="card iconcards">
+              <div class="container g-0">
+                <div class="row g-0">
+                  <div class="col-md-3">
+                    <i class="bi-flower1 icons"></i>
+                  </div>
+                  <div class="col-md-1">
+                    <div class="trait"></div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title" id="extra-fs">Encomendas amigas do ambiente</h5>
+                      <p class="card-text">Materiais Sustentáveis</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- / 3 small cards -->
+
+
+
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-12 col-lg-4">
+
+            <!-- Card counter-->
+            <div class="card card-counter">
+              <div class="container g-0">
+                <div class="card-body">
+                  <h3 class="card-title text-center extra-style">Produto da Semana</h3>
+                  <img class="card-img-middle" src="./img/MaskGroup.png" alt="Card image">
+                  <div class="container gx-5">
+                    <div class="row gx-3">
+                      <div class="col-3">
+                        <div class="card text-center counter">
+                          <p class="title-counter">365</p>
+                          <div class="mx-auto">
+                            <hr class="hr-small">
+                          </div>
+                          <p class="subtitle-counter">dia</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="card text-center counter">
+                          <p class="title-counter">02</p>
+                          <div class="mx-auto">
+                            <hr class="hr-small">
+                          </div>
+                          <p class="subtitle-counter">hora</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="card text-center counter">
+                          <p class="title-counter">28</p>
+                          <div class="mx-auto">
+                            <hr class="hr-small">
+                          </div>
+                          <p class="subtitle-counter">min</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="card text-center counter">
+                          <p class="title-counter">15</p>
+                          <div class="mx-auto">
+                            <hr class="hr-small">
+                          </div>
+                          <p class="subtitle-counter">seq</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="text-center change-color">Feijão verde</h3>
+                  <h5 class="price text-center price-alert">€29.99<span
+                      class="text-decoration-line-through special-numbers">€49.99</span></h5>
+                  <p class="card-text text-center counter-description">Pretium quam vulputate dignissim suspendisse in
+                    est ante. Ac felis donec et odio pellentesque diam</p>
+                  <div class="text-center">
+                    <button class="btn btn-counter">
+                      <i class="bi-cart-fill"></i>Adicionar
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            <!-- / Card counter -->
+          </div>
+          <div class="col-12 col-lg-8">
+            <!-- Card products -->
+            <div class="card card-imgs card-fruit">
+              <div class="container gx-4">
+
+                <h3 class="card-title text-center extra-style mb-md-0 mt-md-3">
+                  Frutas e Vegetais
+                </h3>
+
+                <div class="row">
+                  <div class="col-12 col-lg-4 justify-content-center text-center">
+                    <div class="img-fruit">
+                      <img class="img-responsive card-watermelon watermelon-mobile" src="./img/watermelon.png"
+                        alt="Card image">
+                      <div class="text-veggies">
+                        <h3 class="text-center">Melancia</h3>
+                        <h5 class="price text-center price-alert">€8.99<span
+                            class="text-decoration-line-throug special-numbers">€12.99</span></h5>
+                      </div>
+                      <button class="btn btn-veggies btn-veggies-mobile">
+                        <i class="bi bi-cart-fill"></i>Adicionar
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-4 justify-content-center text-center">
+                    <div class="img-fruit mobile-padding-right">
+                      <img class="card-watermelon" src="./img/watermelon.png" alt="Card image">
+                      <div class="text-veggies">
+                        <h3 class="text-center">Abacate</h3>
+                        <h5 class="price text-center price-alert">€2.99<span
+                            class="text-decoration-line-through special-numbers">€10.30</span></h5>
+                      </div>
+                      <button class="btn btn-veggies text-center">
+                        <i class="bi bi-cart-fill"></i>Adicionar
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-4 justify-content-center text-center">
+                    <div class="img-fruit mobile-padding-left">
+                      <img class="card-watermelon" src="./img/watermelon.png" alt="Card image">
+                      <div class="text-veggies">
+                        <h3 class="text-center">Feijão verde</h3>
+                        <h5 class="price text-center price-alert">€29.99<span
+                            class="text-decoration-line-through special-numbers">€49.99</span></h5>
+                      </div>
+                      <button class="btn btn-veggies text-center">
+                        <i class="bi bi-cart-fill"></i>Adicionar
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-4 d-md-none d-lg-block justify-content-center text-center">
+                    <div class="img-fruit">
+                      <img class="card-watermelon" src="./img/watermelon.png" alt="Card image">
+                      <div class="text-veggies">
+                        <h3 class="text-center">Melancia</h3>
+                        <h5 class="price text-center">€8.99</h5>
+                      </div>
+                      <button class="btn btn-veggies text-center">
+                        <i class="bi bi-cart-fill"></i>Adicionar
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-4 d-md-none d-lg-block justify-content-center text-center">
+                    <div class="img-fruit">
+                      <img class="card-watermelon" src="./img/watermelon.png" alt="Card image">
+                      <div class="text-veggies">
+                        <h3 class="text-center">Cebolas</h3>
+                        <h5 class="price text-center">€1.20</h5>
+                      </div>
+                      <button class="btn btn-veggies text-center">
+                        <i class="bi bi-cart-fill"></i>Adicionar
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-4 d-md-none d-lg-block justify-content-center text-center">
+                    <div class="img-fruit">
+                      <img class="card-watermelon" src="./img/watermelon.png" alt="Card image">
+                      <div class="text-veggies">
+                        <h3 class="text-center">Melão</h3>
+                        <h5 class="price text-center price-alert">€8.99<span
+                            class="text-decoration-line-through special-numbers">€12.99</span></h5>
+                      </div>
+                      <button class="btn btn-veggies text-center">
+                        <i class="bi bi-cart-fill"></i>Adicionar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Card products -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Banners -->
+      <div class="container-fluid container-lg g-0 g-lg-2">
+        <div class="row gx-5">
+          <div class="col-6 col-lg-8">
+            <div class="card card-sale mt-md-5">
+              <h6 class="mb-0">
+                Descontos semanais
+              </h6>
+              <p class="sale-number price-alert">
+                Até 70%
+              </p>
+              <p class="mb-0 discount-text">
+                Cras tincidunt lobortis feugiat vivamus. Laoreet id donec ultrices tincidunt.
+              </p>
+              <button class="btn btn-sales">
+                Sobre nós
+              </button>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-4">
+            <div class="card card-homeproduction mt-md-5">
+
+
+              <div class="card-img-overlay text-center d-flex flex-column">
+                <p class="text-home">Produção Caseira</p>
+              </div>
+
+              <img class="card-img" src="./img/Fruit.png" alt="fruit">
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- / Banners -->
+
+    </section>
+
+    <!-- Full screen banner -->
+    <div class="container-fluid g-0 fs-banner">
+      <div class="row ">
+        <div class="col-12 align-items-center text-center">
+          <div class="text-fullbanner">
+            <p class="title-banner text-white">
+              Entrega em casa gratuita
+            </p>
+            <p class="special-font mt-md-3 text-white">
+              Adipiscing elit ut aliquam purus sit amet luctus. Neque egestas congue quisque egestas diam in.
+              Pretium quam vulputate dignissim suspendisse in est ante in nibh. Leo a diam sollicitudin tempor
+            </p>
+          </div>
+          <button class="btn btn-banner">
+            <i class="bi bi-headset"></i>234 000 000
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- / Full screen banner -->
+
+    <!-- 3 last cards -->
+    <section class="d-md-none d-lg-block">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 text-center mt-5 mb-4">
+            <h2>From the Blog</h2>
+            <p class="break-text">Pretium quam vulputate dignissim suspendisse in est ante. Ac felis donec et odio
+              pellentesque diam</p>
+          </div>
+        </div>
+      </div>
+      <div class="container final-margin">
+        <div class="row change-gutter">
+          <div class="col-4">
+            <div class="card">
+              <img class="card-img-top" src="./img/Placeholder_cards.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="categorie">Categorie</p>
+                <hr class="hr-medium">
+                <p class="author"><span class="author-bold">By: John Doe</span> | Sept. 03,2021</p>
+                <h5 class="card-title-lastcards">Beet & Carrot Salad with Sweet Citrus Vinaigrette</h5>
+                <p class="card-text">Accumsan tortor posuere ac ut consequat semper viverra nam. Posuere sollicitudin
+                  aliquam ultrices sagittis orci a. Nibh cras pulvinar mattis nunc
+                </p>
+                <button class="btn btn-small-cards">Read More
+                  <i class="bi-chevron-double-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img class="card-img-top" src="./img/Placeholder_cards.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="categorie">Categorie</p>
+                <hr class="hr-medium">
+                <p class="author"><span class="author-bold">By: John Doe</span> | Sept. 03,2021</p>
+                <h5 class="card-title-lastcards">Beet & Carrot Salad with Sweet Citrus Vinaigrette</h5>
+                <p class="card-text">Accumsan tortor posuere ac ut consequat semper viverra nam. Posuere sollicitudin
+                  aliquam ultrices sagittis orci a. Nibh cras pulvinar mattis nunc
+                </p>
+                <button class="btn btn-small-cards">Read More
+                  <i class="bi bi-chevron-double-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img class="card-img-top" src="./img/Placeholder_cards.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="categorie">Categorie</p>
+                <hr class="hr-medium">
+                <p class="author"><span class="author-bold">By: John Doe</span> | Sept. 03,2021</p>
+                <h5 class="card-title-lastcards">Beet & Carrot Salad with Sweet Citrus Vinaigrette</h5>
+                <p class="card-text">Accumsan tortor posuere ac ut consequat semper viverra nam. Posuere sollicitudin
+                  aliquam ultrices sagittis orci a. Nibh cras pulvinar mattis nunc
+                </p>
+                <button class="btn btn-small-cards">
+                  Read More <i class="bi bi-chevron-double-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / 3 last cards -->
+
+  </main>
+
+
+
+
+
+  <footer>
+    <!-- inscrição na newsletter -->
+    <section class="newsletter">
+      <!-- styles para o fundo da secção -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h2>Poupe 20% <span class="d-md-none d-lg-inline">na primeira compra</span></h2>
+            <h6 class="mb-md-5">Assine a nossa newsletter</h6>
+          </div>
+          <div class="col-12 col-lg-6">
+            <form action="/send">
+              <!-- container-newsletter usar o flex para colocar as divs lado a lado -->
+              <div class="container-newsletter">
+
+                <div class="form-white-bg d-flex align-items-center">
+                  <input type="text" class="newsletter-input" placeholder="Email">
+                </div>
+
+                <div class="form-green-bg d-flex align-items-center">
+                  <button>
+                    <i class="bi bi-send-fill"></i> Subscrever
+                  </button>
+                </div>
+              </div>
+              <!-- / container-newsletter -->
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / inscrição na newsletter -->
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="container px-md-4 py-md-3">
+        <div class="row">
+          <div class="col-12 col-lg-3 order-md-last order-lg-first">
+            <p class="footer-paragraph">Aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus</p>
+            <a href="https://www.google.pt"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.google.pt"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.google.pt"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.google.pt"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.google.pt"><i class="bi bi-linkedin"></i></a>
+
+
+
+            <!-- Contacts & map -->
+            <div class="container g-0 px-md-3 px-lg-0">
+              <div class="row mt-3">
+                <div class="col-3 d-md-none d-lg-block">
+                  <button class="btn find-icon">
+                    <i class="bi bi-geo-alt-fill"></i>
+                  </button>
+                </div>
+                <div class="col-9 g-0">
+                  <h6 class="text-map-address">Avenida da República 3800-000 Aveiro</h6>
+                </div>
+              </div>
+            </div>
+            <div class="container g-0 px-md-3 px-lg-0">
+              <div class="row mt-3">
+                <div class="col-3 d-md-none d-lg-block">
+                  <button class="btn find-icon">
+                    <i class="bi bi-headset"></i>
+                  </button>
+                </div>
+                <div class="col-9 g-0">
+                  <p class="text-map-marker">Seg - Sex 9H - 21h <span class="schedules-style">234 000 000</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- / Contacts & map -->
+          </div>
+          <!-- Footer Menus -->
+          <div class="col-12 col-lg-3">
+            <h5 class="title-list">Mapa do Site</h5>
+            <ul class="without-bullets">
+              <li><a href="https://www.google.pt">Sobre nós</a></li>
+              <li><a href="https://www.google.pt">Contacto</a></li>
+              <li><a href="https://www.google.pt">Categorias</a></li>
+              <li><a href="https://www.google.pt">Notícias</a></li>
+              <li><a href="https://www.google.pt">Carrinho de compras</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h5 class="title-list">Área de Cliente</h5>
+            <ul class="without-bullets">
+              <li><a href="https://www.google.pt">A minha conta</a></li>
+              <li><a href="https://www.google.pt">Pagamento e Entrega</a></li>
+              <li><a href="https://www.google.pt">FAQ</a></li>
+              <li><a href="https://www.google.pt">Suporte</a></li>
+              <li><a href="https://www.google.pt">Licenças e Permissões</a></li>
+              <li><a href="https://www.google.pt">Parceiros</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h5 class="title-list">Categorias</h5>
+            <ul class="color-bullets">
+              <li><i class="bi bi-circle-fill"></i><a href="https://www.google.pt">Frutas e Vegetais</a></li>
+              <li><i class="bi bi-circle-fill"></i><a href="https://www.google.pt">Enlatados</a></li>
+              <li><i class="bi bi-circle-fill"></i><a href="https://www.google.pt">Cereais</a></li>
+              <li><i class="bi bi-circle-fill"></i><a href="https://www.google.pt">Cafés e Chá</a></li>
+              <li><i class="bi bi-circle-fill"></i><a href="https://www.google.pt">Cafés e Chá</a></li>
+              <li><i class="bi bi-circle-fill"></i><a href="https://www.google.pt">Pasteis</a></li>
+              <li><i class="bi bi-circle-fill"></i><a href="https://www.google.pt">Especiarias</a></li>
+              <li><i class="bi bi-circle-fill"></i><a href="https://www.google.pt">Molhos</a></li>
+
+            </ul>
+          </div>
+          <!-- / Footer Menus -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Methods of payments for mobile -->
+    <div class="container gx-md-4 d-lg-none">
+      <div class="row">
+        <div class="col-12">
+          <div class="copyright-cards-margin">
+            <img class="img-payments" src="./img/visa.png" alt="visa">
+            <img class="img-payments" src="./img/mastercard.png" alt="mastercard">
+            <img src="./img/paypal.png" alt="paypal">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / Methods of payments for mobile -->
+    <!-- / footer -->
+
+    <!-- copyright -->
+    <section class="copyright">
+      <h2 class="hidden">Copyright</h2>
+      <div class="container-fluid">
+        <div class="row g-0">
+          <div class="col-6 col-md-4 offset-md-2">
+            <div class="copyright-cards-margin">
+              <p class="align-copyright">
+                Copyright &#9400; All rights reserved
+              </p>
+            </div>
+          </div>
+          <!-- Methods of payments for desktop -->
+          <div class="col-6 col-md-4 d-md-none d-lg-block">
+            <div class="copyright-cards-margin">
+              <img class="img-payments" src="./img/visa.png" alt="visa">
+              <img class="img-payments" src="./img/mastercard.png" alt="mastercard">
+              <img class="img-payments" src="./img/paypal.png" alt="paypal">
+            </div>
+          </div>
+          <!-- / Methods of payments for desktop -->
+        </div>
+      </div>
+    </section>
+    <!-- / copyright -->
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
