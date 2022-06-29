@@ -8,7 +8,7 @@ Breakpoints:
 The project was made in Development &amp; UI Course at Flag, Lisbon.
 I hope this can help more people in the same path as me.
 
-# Website for a Grocery Store
+# Responsive website for a Grocery Store
 > It's a responsive website with menu, hamburguer menu, counter for special product, shop online, different types of cards, full banner, input newsletter, footer. 
 I received the layout in Figma and I did it all with the toolkit Bootstrap v5.1.
 
